@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Pengenalan HTML tingkat lanjut</title>
+</head>
+
+<body>
+    <strong>Pengenalan HTML tingkat lanjut</strong>
+    <hr />
+    <h1>Hello World</h1>
+    <div>
+        <form action="" method="get">
+            <p><input type="text" name="default_text" size="25"></p>
+            <p><input type="text" name="dengan placeholder" placeholder="Input dengan placeholder" size="25"></p>
+            <p><input type="text" name="dengan_randomly" value="Informatika" size="25" readonly></p>
+            <p><input type="text" name="dengann_disable" value="disable input" size="25" disabled></p>
+            <p><input type="email" name="email" placeholder="masukkan email anda" size="25"></p>
+            <p><input type="password" name="password" placeholder="masukkan password anda" size="25"></p>
+            <p><input type="text" name="dengan_required" placeholder="input required" size="25" required></p>
+            <p><input type="file" name="file"></p>
+            <p><input type="hidden" name="hidden_form" value="1"></p>
+            <p><textarea name="text_area_form" cols="30" rows="5" placeholder="ini text area"></textarea></p>
+            <p>
+                <select name="Pilihan">
+                    <option value="1">Pilihan1</option>
+                    <option value="2" selected>Pilihan2</option>
+                    <option value="3">Pilihan3</option>
+                    <option value="4">Pilihan4</option>
+                    <option value="5">Pilihan5</option>
+                </select>
+            </p>
+            <p>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Laki - Laki</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Perempuan</label>
+            </p>
+            <p>
+                <input type="radio" name="radio" value="adult" id="adult">
+                <label for="adult">Dewasa</label>
+                <input type="radio" name="radio" value="child" id="child">
+                <label for="child">Anak - anak</label>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox" value="checkbox1" id="checkbox1">
+                <label for="checkbox1">Checkbox1</label>
+                <input type="checkbox" name="checkbox" value="checkbox2" id="checkbox2">
+                <label for="checkbox2">Checkbox2</label>
+            </p>
+            <p>
+                <input type="reset" value="Reset" name="reset">
+                <input type="submit" value="Simpan" name="submit">
+                <input type="button" value="button" name="button">
+            </p>
+            <input type="submit" value="button" name="submit">
+        </form>
+    </div>
+    <div>
+        <h2>Element embed</h2>
+        <hr>
+        <embed src="assets/file.pdf" type="application/pdf" width="880" height="1000">
+    </div>
+    <div>
+        <h2>Element Object</h2>
+        <hr>
+        <object data="assets/file.pdf" type="application/pdf" width="880" height="1000"></object>
+    </div>
+    <div>
+        <h2>Element Iframe</h2>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kK_QiapJQOQ?si=YXNwi21AS9x0bHty"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.021167217434!2d112.72847359999999!3d-7.2974336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a806b1ce1%3A0x571f4546e898d79a!2sUniversitas%20Negeri%20Surabaya-%20Kampus%202!5e0!3m2!1sid!2sid!4v1709774071955!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+        <h2>Element Semantic html 5</h2>
+        <hr>
+        <header>Ini Header</header>
+        <nav>Ini Navigation</nav>
+        <main>Ini Main</main>
+        <section>Ini Section</section>
+        <aside>Ini Aside</aside>
+        <footer>Ini Footer</footer>
+    </div>
+</body>
+
+</html>
